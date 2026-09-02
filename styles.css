@@ -342,6 +342,33 @@ h2 {
   margin: 28px 0 0;
   max-width: 34em;
 }
+.when {
+  margin: 28px 0 0;
+  font-family: var(--font-en);
+  font-size: 0.72rem;
+  font-weight: var(--fw-display);
+  letter-spacing: 0.18em;
+  color: var(--gold);
+}
+.where {
+  margin: 10px 0 0;
+  max-width: 34em;
+}
+.out-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  margin: 32px 0 0;
+}
+.out-list a {
+  font-family: var(--font-en);
+  font-size: 0.68rem;
+  font-weight: var(--fw-display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 3px;
+}
 .mail {
   display: inline-block;
   margin-top: 28px;
